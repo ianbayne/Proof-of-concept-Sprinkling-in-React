@@ -14,12 +14,3 @@ require("channels");
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-import React from "react";
-import { render } from "react-dom";
-import SampleComponent from "../components/SampleComponent";
-
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.body.appendChild(document.createElement("div"));
-  render(<SampleComponent />, container);
-});
